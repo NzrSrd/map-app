@@ -31,3 +31,16 @@
     transform: rotate(360deg);
   }
 }
+
+.leaflet-container {
+  height: 700px;
+  width: 100vw;
+  /*margin-top: 200px;*/
+  z-index: -999;
+}
+
+.location-input {
+  width: 400px;
+  border: 2px solid red;
+  margin-bottom: 200px;
+}
